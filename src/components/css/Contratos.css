@@ -1,0 +1,26 @@
+.special-card {
+    margin-top: -11%;
+    padding: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .card-header {
+    background-color: rgb(72, 187, 202);
+    color: aliceblue;
+  }
+
+  .btn1 {
+    background-color: rgb(72, 187, 202);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+  }
+
+  .btn1:hover {
+    background-color: rgba(72, 187, 202, 0.479);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+  }
+
+  .contratoTop {
+    margin-top: 7% !important;
+  }
