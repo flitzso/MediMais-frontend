@@ -27,7 +27,7 @@ Backend do projeto MedMais um site de consultar medicas.
 
 
 ## Demostração ##
-Sobe o front pro vercel e tchau brigado
+
 
 ## Como rodar este projeto? 
 
@@ -48,9 +48,8 @@ $ yarn start
 http://localhost:3000
 ```
 ## 🔧Tecnologias utilizadas
-1. [React]([https://www.java.com/pt-BR/](https://react.dev/))
+1. [React](https://react.dev/)
 2. [Bootstrap](https://getbootstrap.com/)
-3. 
 ## Autor
 ![linkedin](https://github.com/flitzso/MediMais-frontend/assets/106411702/8a8c24e2-b8d6-4347-8724-9b7b79d38c91)
 
