@@ -48,14 +48,11 @@ $ yarn start
 http://localhost:3000
 ```
 ## 🔧Tecnologias utilizadas
-1. [Java](https://www.java.com/pt-BR/)
-2. [Spring Boot](https://spring.io/projects/spring-boot/)
-3. [Spring Security](https://spring.io/projects/spring-security/)
-4. [MySQL](https://www.mysql.com/)
-
+1. [React]([https://www.java.com/pt-BR/](https://react.dev/))
+2. [Bootstrap](https://getbootstrap.com/)
+3. 
 ## Autor
-
-Tira um print do seu linkedin e coloca o link ali haha
+![linkedin](https://github.com/flitzso/MediMais-frontend/assets/106411702/8a8c24e2-b8d6-4347-8724-9b7b79d38c91)
 
 ## Próximos Passos 
 
