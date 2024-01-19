@@ -1,4 +1,4 @@
-# MediMais Backend #
+# MediMais Frontend #
 ![MEDIMAISreadme](https://github.com/flitzso/MediMais-frontend/assets/106411702/57643052-a104-44af-83db-9220bdce72d0)
 
 Backend do projeto MedMais um site de consultar medicas.
