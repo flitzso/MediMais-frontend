@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 103px;
+    padding: 73px;
     border-radius: 2px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     background-color: #f3f0ed;
@@ -39,11 +39,11 @@ body {
   }
   
   .login-box {
-    padding: 80px;
+    padding: 50px;
     border-radius: 2px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     background-color: #9ed8d8;
-    margin-right: 15px;
+    margin-right: 24px;
   }
   
   .social-login-box Button {

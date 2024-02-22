@@ -30,7 +30,7 @@ const Home = () => {
           <label className="caixa1 form-label"></label>
           <input type="date" placeholder='Tratamento' className="tabelaConsultaInput form-control" />
         </div>
-        <button type="submit" className="tabelaConsultaBtn Data">Search</button>
+        <button type="submit" href="/login" className="tabelaConsultaBtn Data">Search</button>
       </form>
     </div>
         <Contratos />
