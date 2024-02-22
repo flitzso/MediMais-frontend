@@ -14,7 +14,7 @@ const NavBar = () => {
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/home">Home</a>
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Provedores</a>
@@ -32,7 +32,7 @@ const NavBar = () => {
               <a class="nav-link" href="#">Loja</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-link" href="/">Login</a>
+              <a class="btn btn-link" href="/login">Login</a>
               <a class="btn btn-link" href="/cadastro">Cadastro</a>
             </li>
           </ul>
