@@ -1,0 +1,9 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btnEntrar{
+    background-color: aliceblue;
+  }

@@ -7,7 +7,7 @@ import axios from "axios";
 import RegisterPopup from '../components/EntrarPopup';
 import logoMedi from '../components/imgs/logo-medi-login.png';
 
-const Login = () => {
+const Beneficiario = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
@@ -44,13 +44,12 @@ const Login = () => {
       </div>
 
       <div className="login-box">
-        <h2>Login</h2>
+        <h2>Área restrita</h2>
         <Form onSubmit={login}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Email</Form.Label>
+            <Form.Label>Nº da carteirinha</Form.Label>
             <Form.Control
               type="email"
-              placeholder="Email"
               value={email}
               onChange={(event) => {
                 setEmail(event.target.value);
@@ -59,10 +58,9 @@ const Login = () => {
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label>Senha</Form.Label>
+            <Form.Label>Nº do CPF</Form.Label>
             <Form.Control
               type="password"
-              placeholder="Senha"
               value={password}
               onChange={(event) => {
                 setPassword(event.target.value);
@@ -83,4 +81,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Beneficiario;

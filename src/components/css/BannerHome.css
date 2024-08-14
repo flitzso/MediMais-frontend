@@ -1,0 +1,37 @@
+.home-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: -1;
+}
+
+.banner-card {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-top: 30%;
+  height: 73%; /* Garante que o card ocupe toda a altura da coluna */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner-card .card-body {
+  padding: 60px;
+  flex-grow: 1; /* Faz com que o corpo do card cresça para ocupar o espaço disponível */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-card img {
+  max-height: 150px; /* Limita a altura da imagem */
+  object-fit: cover;
+  margin-top: auto; /* Posiciona a imagem no final do card */
+}

@@ -1,44 +1,48 @@
 import React from 'react';
+import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import EntrarPopup from './EntrarPopup';
+import '../components/css/EntrarPopup.css';
 
 const NavBar = () => {
   return (
     <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Twelfth navbar example">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Twelfth navbar example">
+        <div className="container-fluid">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Provedores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Med e Care</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Reembolsos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Loja</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-link" href="/login">Login</a>
-              <a class="btn btn-link" href="/cadastro">Cadastro</a>
-            </li>
-          </ul>
+          <div className="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="letterNav nav-link active" href="/">Inicio</a>
+              </li>
+              <li className="nav-item">
+                <a className="letterNav nav-link active" href="/sobre">Sobre nós</a>
+              </li>
+              <li className="nav-item">
+                <a className="letterNav nav-link active" href="/planos">Planos</a>
+              </li>
+              <li className="nav-item">
+                <a className="letterNav nav-link active" href="/servicos">Serviços</a>
+              </li>
+              <li className="nav-item">
+                <a className="letterNav nav-link active" href="/unidades">Nossas unidades</a>
+              </li>
+              <li className="nav-item">
+                <a className="letterNav nav-link active" href="/redescredenciadas">Rede credenciada</a>
+              </li>
+              <li className="nav-item">
+                <a className="letterNav nav-link active" href="/faleconosco">Fale conosco</a>
+              </li>
+              <li className="nav-item">
+              <EntrarPopup /> 
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     </div>
   );
 };
