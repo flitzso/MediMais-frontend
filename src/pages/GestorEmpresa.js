@@ -7,7 +7,7 @@ import axios from "axios";
 import RegisterPopup from '../components/EntrarPopup';
 import logoMedi from '../components/imgs/logo-medi-login.png';
 
-const Login = () => {
+const GestorEmpresa = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
@@ -83,4 +83,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default GestorEmpresa;

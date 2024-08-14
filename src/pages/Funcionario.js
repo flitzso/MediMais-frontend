@@ -7,7 +7,7 @@ import axios from "axios";
 import RegisterPopup from '../components/EntrarPopup';
 import logoMedi from '../components/imgs/logo-medi-login.png';
 
-const Login = () => {
+const Funcionario = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
@@ -70,7 +70,7 @@ const Login = () => {
             />
           </Form.Group>
 
-          <Button variant="primary" type="submit">
+          <Button variant="primary" href="/credenciamento" type="submit">
             Login
           </Button>
         </Form>
@@ -83,4 +83,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Funcionario;

@@ -7,7 +7,7 @@ import axios from "axios";
 import RegisterPopup from '../components/EntrarPopup';
 import logoMedi from '../components/imgs/logo-medi-login.png';
 
-const Login = () => {
+const Credenciado = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
@@ -44,10 +44,10 @@ const Login = () => {
       </div>
 
       <div className="login-box">
-        <h2>Login</h2>
+        <h2>MediMais</h2>
         <Form onSubmit={login}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Email</Form.Label>
+            <Form.Label>Usuario</Form.Label>
             <Form.Control
               type="email"
               placeholder="Email"
@@ -83,4 +83,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Credenciado;
