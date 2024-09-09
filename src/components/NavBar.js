@@ -37,6 +37,9 @@ const NavBar = () => {
                 <a className="letterNav nav-link active" href="/faleconosco">Fale conosco</a>
               </li>
               <li className="nav-item">
+                <a className="letterNav nav-link active" href="/minhaconta">Minha conta</a>
+              </li>
+              <li className="nav-item">
               <EntrarPopup /> 
               </li>
             </ul>
