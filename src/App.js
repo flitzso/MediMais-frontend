@@ -23,6 +23,7 @@ import AgendamentoConsulta from './pages/cardhome/AgendamentoConsulta';
 import Orcamento from './pages/cardhome/Orcamento';
 import Credenciamento from './pages/Credenciamento';
 import Boleto from './components/Boleto';
+import MinhaConta from './pages/MinhaConta';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route path="/orcamento" element={<Orcamento />} />
         <Route path="/credenciamento" element={<Credenciamento />} />
         <Route path="/boleto" element={<Boleto/>} />
+        <Route path="/minhaconta" element={<MinhaConta />} />
       </Routes>
     </BrowserRouter>
   );

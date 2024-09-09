@@ -1,4 +1,3 @@
-// Gredenciamento.js
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Form, Button, Alert } from 'react-bootstrap';
 
@@ -21,15 +20,24 @@ const Gredenciamento = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulação de envio de dados
     setMessage('Cadastro realizado com sucesso!');
-    // Aqui você pode adicionar a lógica para enviar os dados para um servidor, por exemplo.
+    // Lógica para enviar os dados ao servidor pode ser adicionada aqui.
   };
+
+  // Dados do funcionário (pode ser recebido como props ou de outra fonte)
+  const employeeName = 'João Silva';
+  const employeeRole = 'Gerente de Vendas';
 
   return (
     <Container className="mt-4">
       <Row>
         <Col>
+          {/* Exibindo nome e função do funcionário */}
+          <div className="mb-3">
+            <h5>{employeeName}</h5>
+            <p>{employeeRole}</p>
+          </div>
+
           <Card>
             <Card.Header>
               <h4>Cadastro de Credenciamento</h4>
@@ -108,11 +116,11 @@ const Gredenciamento = () => {
                   />
                 </Form.Group>
 
-                <Button variant="primary" type="submit">
+                <Button variant="primary" type="submit" className="me-2">
                   Cadastrar
                 </Button>
-                <Button variant="primary" href="/" type="submit">
-                  Inicio
+                <Button variant="secondary" href="/">
+                  Início
                 </Button>
               </Form>
             </Card.Body>
